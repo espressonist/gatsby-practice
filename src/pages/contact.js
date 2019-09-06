@@ -4,7 +4,7 @@ const ContactPage = () => {
     return (
         <div>
             <h1>Contact Me</h1>
-            <p>09123456789</p>
+            <p><a href="http://google.com" target="_blank" rel="noopener noreferrer">09123456789</a></p>
         </div>
     )
 }
