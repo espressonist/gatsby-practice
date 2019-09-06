@@ -1,14 +1,13 @@
 import React from "react"
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
 
 const ContactPage = () => {
     return (
         <div>
-            <Header />
-            <h1>Contact Me</h1>
-            <p><a href="http://google.com" target="_blank" rel="noopener noreferrer">09123456789</a></p>
-            <Footer />
+            <Layout>
+                <h1>Contact Me</h1>
+                <p><a href="http://google.com" target="_blank" rel="noopener noreferrer">09123456789</a></p>
+            </Layout>
         </div>
     )
 }
